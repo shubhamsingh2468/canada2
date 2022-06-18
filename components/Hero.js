@@ -359,8 +359,7 @@ export default function Example() {
               <span className="block text-indigo-600 xl:inline">online businesses</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-            Change your looks with our talented stylists.<br></br>
-            /* Designed by shubham singh. */
+            Change your looks with our talented stylists. 
             </p>
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
