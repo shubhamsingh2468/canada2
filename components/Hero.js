@@ -1,6 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
+import Image from 'next/image'
+
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
+
 import {
   BookmarkAltIcon,
   CalendarIcon,
@@ -85,10 +88,13 @@ export default function Example() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <img
+                <Image
                   className="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                   alt=""
+                  width={1310}
+                  height={873}
+                  
                 />
               </a>
             </div>
@@ -276,10 +282,12 @@ export default function Example() {
               <div className="pt-5 pb-6 px-5">
                 <div className="flex items-center justify-between">
                   <div>
-                    <img
+                    <Image
                       className="h-8 w-auto"
                       src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                       alt="Workflow"
+                      width={1310}
+                      height={873}
                     />
                   </div>
                   <div className="-mr-2">
@@ -375,10 +383,12 @@ export default function Example() {
           </div>
         </div>
         <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-          <img
+          <Image
             className="absolute inset-0 w-full h-full object-cover"
             src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
             alt=""
+            width={1310}
+            height={873}
           />
         </div>
       </main>
