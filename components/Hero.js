@@ -92,8 +92,8 @@ export default function Example() {
                   className="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                   alt=""
-                  width={1310}
-                  height={873}
+                  width={100}
+                  height={150}
                   
                 />
               </a>
