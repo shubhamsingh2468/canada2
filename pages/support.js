@@ -15,8 +15,17 @@
   ```
 */
 import Image from 'next/image'
+import Footer from '../components/Footer'
+import Hulu from '../components/Hulu'
+
+
 export default function Example() {
     return (
+      <div>
+        <Hulu />
+        
+        
+
       <div className="relative py-16 bg-white">
         <div className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block" aria-hidden="true" />
         <div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">
@@ -102,6 +111,9 @@ export default function Example() {
           </div>
         </div>
       </div>
+      <Footer />
+      </div>
+      
     )
   }
   

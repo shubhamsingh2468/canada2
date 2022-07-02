@@ -91,15 +91,13 @@ export default function Example() {
             Our team consistently pushes themselves with regular training, and are obsessed with keeping up-to-date with the newest looks.{' '}
               <a href="#">30 YEARS OF EXPERIENCE</a> with mahek beuty salon
             </p>
-            <ul role="list">
-              <li>Quis elit egestas venenatis mattis dignissim.</li>
-              <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-              <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-            </ul>
+            
             <p>
-              Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam
-              porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc
-              purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.
+            We are a full-service hair salon and beauty spa in the Toronto Financial District, steps away from St. Andrew subway station at the corner of University Ave. and Adelaide St. Our team consistently pushes themselves with regular training, and are obsessed with keeping up-to-date with the newest looks, styles and procedures. Many of our team also share their own their skills and knowledge, formally educating up-and-coming industry talent.
+
+
+
+          
             </p>
             <h2>Our Services</h2>
             <p>

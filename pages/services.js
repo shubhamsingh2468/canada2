@@ -1,3 +1,5 @@
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from '@heroicons/react/outline'
 
@@ -18,6 +20,12 @@ const features = [
 
 export default function Example() {
   return (
+   
+    <div>
+      <Header />
+      
+    
+    
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
         <div>
@@ -41,6 +49,8 @@ export default function Example() {
           </dl>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   )
 }

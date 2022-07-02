@@ -118,9 +118,10 @@ export default function Example() {
           </Popover>
   
           <div className="relative mt-24 max-w-md mx-auto px-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">BEUTY & HAIR SALON</h1>
+            <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Sign in Pages</h1>
             <p className="mt-6 text-xl text-cyan-100 max-w-3xl">
-            Change your looks with our talented stylists.
+            login and  activate account on beuty salon company.
+            
           
             </p>
           </div>
